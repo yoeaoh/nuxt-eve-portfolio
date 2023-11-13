@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 915 580">
     <style>
         .spiral {
-            opacity:0.1;
+            opacity:1;
             fill:none;
             stroke:#000;
             stroke-width:1;
         }
 
         .boxes {
-            opacity:0.05;
+            opacity:1;
             stroke:#000;
             stroke-width:1;
         }

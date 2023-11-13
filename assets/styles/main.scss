@@ -4,13 +4,27 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
-  font-size: 16px;
-  color: #000000;
-  background-color: #eeeeee;
-  background-image: url("./golden_ratio.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   min-height: 100vh;
+
+  background-color: #eeeeee;
+  // TODO: make my own svg spiral (or js canvas) and animate it.
+  //   background-image: url("~/golden_ratio.svg");
+  //   background-size: contain;
+  //   background-repeat: no-repeat;
+  //   background-position: center;
+
+  font-size: 16px;
+  font-family: "Nunito";
+  //   color: #000000;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1400px;
 }
